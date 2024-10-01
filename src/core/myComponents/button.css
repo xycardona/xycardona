@@ -1,0 +1,31 @@
+.bt {
+    min-width: 52px;
+    outline-style: none;
+    cursor: pointer;
+    min-height: 52px;
+    padding: 0px 32px;
+    border:none;
+    border-radius: 50px;
+    word-wrap: break-word;
+    font-weight: 700;
+}
+.bt-primary {
+    background-color: rgb(29, 155, 240);
+
+    &:hover {
+        background-color: rgb(40, 87, 243);
+    }
+}
+
+.bt-secundary {
+        background-color: rgb(239, 243, 244);
+        border-color: rgba(0,0,0,0);
+        color: black;
+        padding: 0px 16px;
+        min-height: 32px;
+       
+
+}
+.bt-secundary:hover {
+    background-color: rgb(23, 140, 199);
+}

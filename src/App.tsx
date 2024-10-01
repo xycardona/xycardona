@@ -1,24 +1,19 @@
 
 import './App.css'
 
-import Botoncito from './myComponents/Boton';
-import Escoge from './myComponents/Select';
+//import  MiBoton from "./core/myComponents/Boton";
+import HomeContainer from './modules/home/containers/HomeContainer';
+
 function App() {
-  const elColor=()=>{
-   
+  return <HomeContainer/>;
+  /*(
     
-    alert("c");
+<div className="container">
+<MiBoton text="Coloréame" onClick={() => console.log(" hizo33 Clic")}  variant="primary"/>
 
-  }
-
-  return <>
-  <div >
-  <Botoncito ></Botoncito>
-  </div><br></br>
-  <div> <Escoge onChange={elColor}></Escoge></div>
- 
-  </>
-  
+</div>
+  );
+  */
 }
 
 export default App;
